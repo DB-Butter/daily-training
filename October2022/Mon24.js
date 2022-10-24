@@ -19,7 +19,7 @@ function mon24 (arr, target) {
     let result = null;
     for(let i=0;i<arr.length;i++) {
         for(let j=0;j<arr.length;j++) {
-            if( arr[i]+arr[j] === target) {
+            if( i!==j && arr[i]+arr[j] === target) {
                 result = [[j], [i]]
             }
         }
@@ -38,3 +38,13 @@ mon24([2,7,11,15], 9);
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 // Code Challenege Completed! ttc: <1hr
+
+//refactored for more accurate results on a wider datapool
+
+// Example 2:
+
+// Input: nums = [3,3], target = 6
+mon24([3,3],6);
+
+// node October2022/mon24
+// Output: [0,1]
