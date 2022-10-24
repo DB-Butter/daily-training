@@ -14,3 +14,16 @@
 // create a nested for loop which checks if [i] + [j] = target number
 
 //return result
+
+function mon24 (arr, target) {
+    let result = null;
+    for(let i=0;i<arr.length;i++) {
+        for(let j=0;j<arr.length;j++) {
+            if( arr[i]+arr[j] === target) {
+                result = [[j], [i]]
+            }
+        }
+    }
+    console.log(result)
+};
+
