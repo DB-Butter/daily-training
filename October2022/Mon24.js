@@ -27,3 +27,12 @@ function mon24 (arr, target) {
     console.log(result)
 };
 
+// Example:
+
+// Input: nums = [2,7,11,15], target = 9
+mon24([2,7,11,15], 9);
+
+// node October2022/mon24
+// Output: [0,1]
+
+// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
