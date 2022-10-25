@@ -13,3 +13,17 @@
 // compare the arrays
 
 // return result
+
+function tue25 (num) {
+    let array = Array.from(String(num))
+    let arrayReverse = Array.from(String(num)).reverse()
+    let arrayIsPalindrome = null;
+    for(let i=0;i<(array.length/2);i++) {
+        if (array[i] === arrayReverse[i]) {
+            arrayIsPalindrome = true
+        } else { arrayIsPalindrome = false }
+    }
+    if (arrayIsPalindrome === true) {
+        console.log(`${num} is a palindrome integer`)
+    } else {console.log(`${num} is not a palindrome integer`)}
+}
