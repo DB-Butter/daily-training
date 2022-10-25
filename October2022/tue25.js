@@ -40,4 +40,4 @@ tue25(121)
 
 // Code Challenege Completed! ttc: <1hr
 
-// fixed issue where my commits where not filed under my primary email
+// fixed issue where secondary email was not linked to GitHub acc
