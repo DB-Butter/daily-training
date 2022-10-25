@@ -27,3 +27,13 @@ function tue25 (num) {
         console.log(`${num} is a palindrome integer`)
     } else {console.log(`${num} is not a palindrome integer`)}
 }
+
+// Example:
+
+// Input: x = 121
+tue25(121)
+
+// Output: true   (output personalized)
+// node October2022/tue25
+
+// Explanation: 121 reads as 121 from left to right and from right to left.
