@@ -84,3 +84,9 @@ romanConverter('MCMXCIV')
 // Code Challenege Completed! ttc: <1hr
 
 // Code Challenge: easy | Rated: 2/10
+
+// Tools:
+
+// Object index of kvp s
+// For loop
+// If/else
