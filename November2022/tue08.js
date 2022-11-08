@@ -54,6 +54,13 @@ function romanConverter (num) {
     if (total) {console.log(`${num} as an integer = ${total}`)} else {console.log('incorrect roman numeral format...')}
 }
 
-romanConverter('IV')
+// romanConverter('IV')
 // IV as an integer = 4
 
+// Example 1:
+
+romanConverter('III')
+
+// Input: num = "III"
+// Output: III as an integer = 3
+// Explanation: III = 3.
