@@ -64,3 +64,11 @@ romanConverter('III')
 // Input: num = "III"
 // Output: III as an integer = 3
 // Explanation: III = 3.
+
+// Example 2:
+
+romanConverter('LVIII')
+
+// Input: num = "LVIII"
+// Output: LVIII as an integer = 58
+// Explanation: L = 50, V= 5, III = 3.
