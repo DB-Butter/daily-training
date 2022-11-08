@@ -15,3 +15,45 @@
 // iterate through the given roman numeral, and apply the rules of subtraction down the line. The rest should be applied addition
 
 // return result
+
+const romanValues = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+}
+
+function romanConverter (num) {
+    let total = 0;
+    for (let i=0;i<num.length; i++) {
+        if (num[i] === "I" && num[i + 1] === "V") {
+            total += 4;
+            i++;
+          } else if (num[i] === "I" && num[i + 1] === "X") {
+            total += 9;
+            i++;
+          } else if (num[i] === "X" && num[i + 1] === "L") {
+            total += 40;
+            i++;
+          } else if (num[i] === "X" && num[i + 1] === "C") {
+            total += 90;
+            i++;
+          } else if (num[i] === "C" && num[i + 1] === "D") {
+            total += 400;
+            i++;
+          } else if (num[i] === "C" && num[i + 1] === "M") {
+            total += 900;
+            i++;
+          } else {
+            total += romanValues[num[i]];
+        }
+    }
+    if (total) {console.log(`${num} as an integer = ${total}`)} else {console.log('incorrect roman numeral format...')}
+}
+
+romanConverter('IV')
+// IV as an integer = 4
+
