@@ -82,3 +82,5 @@ romanConverter('MCMXCIV')
 // Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 // Code Challenege Completed! ttc: <1hr
+
+// Code Challenge: easy | Rated: 2/10
