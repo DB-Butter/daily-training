@@ -44,6 +44,16 @@ function findLongestPrefix(arr,arrLength) {
     return (result)
 }
 
-let arr = ['test', 'testing', 'tester']
+// let arr = ['test', 'testing', 'tester']
+// let arrLength = arr.length
+// console.log(findLongestPrefix(arr, arrLength))
+
+// Example 1:
+
+// Input: strs = ["flower","flow","flight"]
+// Output: "fl"
+
+let arr = ['flower', 'flow', 'flight']
 let arrLength = arr.length
 console.log(findLongestPrefix(arr, arrLength))
+
