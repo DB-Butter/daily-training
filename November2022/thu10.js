@@ -9,8 +9,10 @@
 
 // myAnswer: 
 
-// create an answer array
+// find the string with the lowest length
 
-// compare string1[i] by stringX[i] if 1[i] === X[i], then push 1[i] into the answer array
+// create result string
 
-// join the answer array for result string (if empty return '')
+// collect arr[0][j] as current character; compare current character across arr[i][j] and append result string 
+
+// return result
