@@ -66,3 +66,5 @@ function findLongestPrefix(arr,arrLength) {
 let arr = ['dog', 'racecar', 'car']
 let arrLength = arr.length
 console.log(findLongestPrefix(arr, arrLength))
+
+// Code Challenege Completed! ttc: ~1hr
