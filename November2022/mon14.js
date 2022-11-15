@@ -73,3 +73,5 @@ validParentheses('(]')
 
 // Input: s = "(]"
 // Output: invalid parentheses
+
+// Code Challenege Completed! ttc: <1hr
