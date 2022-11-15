@@ -1,4 +1,4 @@
-// Thursday November10, 2022. Challenge: easy.
+//Thursday November10, 2022. Challenge: easy.
 
 //Challenge:
 
