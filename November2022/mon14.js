@@ -51,3 +51,11 @@ function validParentheses(str) {
     }
     if (valid) {console.log('valid parentheses')} else console.log('invalid parentheses')
 }
+
+
+// Example 1:
+
+validParentheses('()')
+
+// Input: s = "()"
+// Output: valid parentheses
