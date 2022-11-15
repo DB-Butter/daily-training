@@ -17,3 +17,37 @@
 // apply parameters to the characters
 
 // If a character is invalid return invalid parenthases
+
+function validParentheses(str) {
+    let valid = true
+    for (let i=0;i<str.length;i++) {
+        if (str[i] === '(') {
+            if (str[i+1] !== ')') {
+                valid = false
+            }
+        } else if (str[i] === ')') {
+            if (str[i-1] !== '(') {
+                valid = false
+            }
+        } else if (str[i] === '{') {
+            if (str[i+1] !== '}') {
+                valid = false
+            }
+        } else if (str[i] === '}') {
+            if (str[i-1] !== '{') {
+                valid = false
+            }
+        } else if (str[i] === '[') {
+            if (str[i+1] !== ']') {
+                valid = false
+            }
+        } else if (str[i] === ']') {
+            if (str[i-1] !== '[') {
+                valid = false
+            }
+        } else {
+            valid = false
+        }
+    }
+    if (valid) {console.log('valid parentheses')} else console.log('invalid parentheses')
+}
