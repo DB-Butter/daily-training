@@ -9,3 +9,11 @@
 // Open brackets must be closed by the same type of brackets.
 // Open brackets must be closed in the correct order.
 // Every close bracket has a corresponding open bracket of the same type.
+
+//myAnswer:
+
+// iterate through the string
+
+// apply parameters to the characters
+
+// If a character is invalid return invalid parenthases
