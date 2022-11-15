@@ -66,3 +66,10 @@ validParentheses('()[]{}')
 
 // Input: s = "()[]{}"
 // Output: valid parentheses
+
+// Example 3:
+
+validParentheses('(]')
+
+// Input: s = "(]"
+// Output: invalid parentheses
