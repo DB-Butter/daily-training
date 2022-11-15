@@ -1,4 +1,4 @@
-//Monday November14, 2022. Challenge: easy.
+//Monday November14, 2022. Challenge: Valid Parentheses - easy.
 
 //Challenge:
 
