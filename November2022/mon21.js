@@ -42,3 +42,5 @@ mergeAndSort([], [0])
 
 // Input: list1 = [], list2 = [0]
 // Output: [0]
+
+// Code Challenege Completed! ttc: <1hr
