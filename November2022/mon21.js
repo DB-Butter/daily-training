@@ -28,3 +28,10 @@ mergeAndSort([1,2,4], [1,3,4])
 
 // Input: list1 = [1,2,4], list2 = [1,3,4]
 // Output: [1,1,2,3,4,4]
+
+// Example 2:
+
+mergeAndSort([], [])
+
+// Input: list1 = [], list2 = []
+// Output: []
