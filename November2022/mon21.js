@@ -35,3 +35,10 @@ mergeAndSort([], [])
 
 // Input: list1 = [], list2 = []
 // Output: []
+
+// Example 3:
+
+mergeAndSort([], [0])
+
+// Input: list1 = [], list2 = [0]
+// Output: [0]
