@@ -7,7 +7,7 @@
 
 // myAnswer:
 
-// create a function which accepts an array of numbers, and a target number
+// create a function which accepts an array of numbers and a target number
 
 // create a for loop which iterates over the array
 
