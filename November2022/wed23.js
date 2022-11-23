@@ -19,15 +19,16 @@
 // return arr length and arr
 
 function removeElement(arr, val) {
-    for (let i=0;i<arr.length;i++) {
+    for (let i=0;i<arr.length;i) {
         if (arr[i] === val) {
             arr.splice(i, 1)
-        }
+        } else {i++}
     }
     console.log(`${arr.length}, nums = [${arr}]`)
 }
 
 // Example 1:
+
 let nums = [3,2,2,3]
 let val = 3
 
@@ -37,3 +38,4 @@ removeElement(nums, val)
 // Output: 2, nums = [2,2,_,_]
 // Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
+
