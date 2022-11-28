@@ -14,3 +14,12 @@
 
 // if the target value is greater than array[i], result ++ 
 
+function searchInputPosition (arr, target) {
+    let result = 0
+    for (let i=0;i<arr.length;i++) {
+        if (target > arr[i]) {
+            result++
+        }
+    }
+    console.log(result)
+}
