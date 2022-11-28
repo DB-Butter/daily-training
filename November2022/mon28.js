@@ -23,3 +23,10 @@ function searchInputPosition (arr, target) {
     }
     console.log(result)
 }
+
+// Example 1:
+
+searchInputPosition([1,3,5,6], 5)
+
+// Input: nums = [1,3,5,6], target = 5
+// Output: 2
