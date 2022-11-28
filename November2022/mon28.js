@@ -44,3 +44,5 @@ searchInputPosition([1,3,5,6], 7)
 
 // Input: nums = [1,3,5,6], target = 7
 // Output: 4
+
+// Code Challenege Completed! ttc: <1hr
