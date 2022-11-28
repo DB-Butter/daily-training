@@ -37,3 +37,10 @@ searchInputPosition([1,3,5,6], 2)
 
 // Input: nums = [1,3,5,6], target = 2
 // Output: 1
+
+// Example 3:
+
+searchInputPosition([1,3,5,6], 7)
+
+// Input: nums = [1,3,5,6], target = 7
+// Output: 4
