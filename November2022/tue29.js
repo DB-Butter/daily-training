@@ -38,3 +38,11 @@ lastWordLength("   fly me   to   the moon  ")
 // Input: s = "   fly me   to   the moon  "
 // Output: 4
 // Explanation: The last word is "moon" with length 4.
+
+// Example 3:
+
+lastWordLength("luffy is still joyboy")
+
+// Input: s = "luffy is still joyboy"
+// Output: 6
+// Explanation: The last word is "joyboy" with length 6.
