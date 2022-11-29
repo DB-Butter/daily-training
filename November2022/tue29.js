@@ -46,3 +46,5 @@ lastWordLength("luffy is still joyboy")
 // Input: s = "luffy is still joyboy"
 // Output: 6
 // Explanation: The last word is "joyboy" with length 6.
+
+// Code Challenege Completed! ttc: <1hr
