@@ -14,5 +14,13 @@
 
 function lastWordLength(str) {
     const arr = str.split(' ')
-    console.log(arr[arr.length-1].length)
+    console.log(`The last word is ${arr[arr.length-1]} with length ${arr[arr.length-1].length}`)
 }
+
+// Example 1:
+
+lastWordLength("Hello World")
+
+// Input: s = "Hello World"
+// Output: 5
+// Explanation: The last word is "World" with length 5.
