@@ -11,3 +11,8 @@
 // split the string at each space
 
 // return the length of the last word in the new array
+
+function lastWordLength(str) {
+    const arr = str.split(' ')
+    console.log(arr[arr.length-1].length)
+}
