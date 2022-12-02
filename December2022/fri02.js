@@ -8,13 +8,11 @@
 
 //myAnswer:
 
-// loop through the array backwards
+// convert the arr into a number
 
-// adding === true
+// add one
 
-// if arr[i] != 9, arr[i]++ and adding=false
-
-// if arr[i] === 9, arr[i] = 0
+// convert the number into an array
 
 function plusOne (arr) {
     let adding = true
