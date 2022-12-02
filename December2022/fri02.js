@@ -15,17 +15,9 @@
 // convert the number into an array
 
 function plusOne (arr) {
-    let adding = true
-    for (let i=arr.length-1;i>0;i--) {
-        if (adding === true && arr[i] != 9) {
-            arr[i]++
-            adding=false
-        }
-        if (adding === true && arr[i] === 9) {
-            arr[i] = 0
-        }
-    }
-    console.log(arr)
+    let answer = (parseInt(arr.join('')) + 1).toString()
+    let answerArr = Array.from(answer)
+    console.log(answerArr)
 }
 
 // Example 1:
