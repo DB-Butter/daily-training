@@ -68,3 +68,10 @@ addBinary('1010', '1011')
 
 // Input: a = "1010", b = "1011"
 // Output: "10101"
+
+// Example 3:
+
+addBinary('10110', '1001')
+
+// Input: a = "10110", b = "1001"
+// Output: "11111"
