@@ -8,6 +8,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order. */
 
+/* MyAnswer: This is my First Java algorithm! Woohoo! My answer lies in my knowledge of JS, problem solving, and w3 Java docs */
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Starting...");
