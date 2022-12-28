@@ -76,4 +76,4 @@ addBinary('10110', '1001')
 // Input: a = "10110", b = "1001"
 // Output: "11111"
 
-// Code Challenege Completed! ttc: 1hr
+// Code Challenege Completed! ttc: ~1hr
