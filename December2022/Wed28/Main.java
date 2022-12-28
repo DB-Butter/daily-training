@@ -23,6 +23,10 @@ public class Main {
     // int target = 6;
     // Output: [1,2]
 
+    int[] nums = new int[]{3,3};
+    int target = 6;
+    // Output: [0,1]
+
     System.out.println(Arrays.toString(TwoSum(nums, target)));
     }
 
